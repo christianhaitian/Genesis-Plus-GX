@@ -1,6 +1,13 @@
 [![Build Status](https://travis-ci.org/libretro/Genesis-Plus-GX.svg?branch=master)](https://travis-ci.org/libretro/Genesis-Plus-GX)
 [![Build status](https://ci.appveyor.com/api/projects/status/d72k6bipi13o15v4/branch/master?svg=true)](https://ci.appveyor.com/project/bparker06/genesis-plus-gx/branch/master)
 
+# Build for rk3326 64bit OS (From 64 bit Arm environment)
+
+```bash
+git clone https://github.com/christianhaitian/Genesis-Plus-GX.git
+cd Genesis-Plus-GX
+make V=1 -f Makefile.libretro platform=classic_armv8_a35
+```
 
 Genesis Plus GX is an open-source Sega 8/16 bit emulator focused on accuracy and portability. Initially ported and developped on Gamecube / Wii consoles through [libogc / devkitPPC](http://sourceforge.net/projects/devkitpro/), this emulator is now available on many other platforms through various frontends such as:
 
