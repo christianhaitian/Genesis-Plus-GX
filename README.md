@@ -6,7 +6,7 @@
 ```bash
 git clone https://github.com/christianhaitian/Genesis-Plus-GX.git
 cd Genesis-Plus-GX
-make V=1 -f Makefile.libretro platform=classic_armv8_a35
+make V=1 -f Makefile.libretro platform=goadvance
 ```
 
 Genesis Plus GX is an open-source Sega 8/16 bit emulator focused on accuracy and portability. Initially ported and developped on Gamecube / Wii consoles through [libogc / devkitPPC](http://sourceforge.net/projects/devkitpro/), this emulator is now available on many other platforms through various frontends such as:
